@@ -1,62 +1,61 @@
-# Customer-Acquisition-Analysis
 ⚙️ Installation & Setup
 Clone the repository
 
 or download the ZIP file from GitHub.
 
-Prepare the environment
-Ensure you have Python installed, or use .
+Ensure Dataset Placement
+Make sure the Customer Acqusition.csv file is in the same directory as the .ipynb notebook.
 
-Install dependencies
-Run the following command to install the required libraries:
+Install Dependencies
+If running locally, install the required libraries:
 
 Run the analysis
-Open CustomerAcquisitionAnalysis.ipynb in Jupyter Notebook or VS Code and run all cells.
+Open the notebook in VS Code, Jupyter, or upload it to Google Colab and click Run All.
 
-Analysis Overview
-The project follows a standard data science workflow:
+Workflow Overview
+The analysis follows a structured data pipeline:
 
-Data Loading Layer → Importing CSV data using Pandas.
+Data Loading: Importing datasets and inspecting initial structures (df.head(), df.info()).
 
-Preprocessing Layer → Handling missing values and data type conversion.
+Preprocessing: Detecting null values (df.isna()) and correcting data types.
 
-Analysis Layer → Segmenting customers by city, employment, and product type.
+Segmentation: Grouping customers by City, Product Type (Gold/Silver/Platinum), and Segment.
 
-Visualization Layer → Generating distribution plots and correlation heatmaps.
+Visualization: Generating count plots and bar charts to identify key business trends.
 
 Key Insights
-Segment Distribution: Identification of the largest customer groups (e.g., Salaried vs. Self-Employed).
+Customer Demographics: Distribution of "Salaried" vs "Self-Employed" clients across major cities.
 
-Financial Correlation: Analyzing how credit limits vary across different product tiers (Gold, Silver, Platinum).
+Credit Analysis: Understanding the correlation between product tiers and assigned credit limits.
 
-Regional Trends: Visualizing customer density across different geographical locations.
+Product Popularity: Visualizing which card types are most frequently acquired.
 
 Requirements
-Python 3.7+
+Python 3.7 or newer
 
-Pandas & NumPy libraries
+Pandas & NumPy
 
-Matplotlib & Seaborn libraries
+Matplotlib & Seaborn
 
-Internet connection (if using Google Colab)
+Jupyter Notebook environment
 
 Academic Purpose
-This project was developed to demonstrate:
+This project was developed as a practical assignment to demonstrate:
 
-Proficiency in Python for data manipulation.
+Proficiency in Python for data science.
 
-Ability to clean and structure "messy" real-world data.
+Ability to work with real-world CSV datasets.
 
-Skills in creating professional data visualizations.
+Skills in data visualization and interpretation.
 
-Analytical thinking and data-driven decision making.
+Clean and documented coding practices.
 
 Future Improvements
-Implement Predictive Modeling (Machine Learning) for customer churn.
+Integrate Machine Learning models to predict customer segments.
 
-Add more complex feature engineering.
+Add deeper time-series analysis if date data is available.
 
-Create an interactive dashboard using Streamlit or Plotly.
+Develop an interactive dashboard using Streamlit.
 
 License
 This project is developed for educational purposes.
